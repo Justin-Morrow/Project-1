@@ -206,8 +206,7 @@ header input {
 
 #map {
     height: 600px;
-    width: 500px;
-    position: relative 300px;
+    width: 1000px;
     background-color: grey;
 
   }
@@ -250,5 +249,3 @@ a {
     text-decoration: none;
     color: cadetblue;
   }
-
-  
