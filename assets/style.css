@@ -194,3 +194,16 @@ header input {
     width: 20px;
     /* cursor: pointer; */
 }
+
+.add {
+    background-color:#F7CAD5;
+    color: white;
+    font-size: large;
+}
+
+.delete {
+    background-color:#9EB2F0;
+    color: white;
+    font-size: large;
+
+}

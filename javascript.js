@@ -38,7 +38,7 @@ function addMeal(mealData, random = false) {
         <div class="meal-header">
             ${
                 random ? `
-            <span class="random"> Random Recipe </span> `
+            <span class="random"> Random recipe </span> `
             : ""
             }
             <img src="${mealData.strMealThumb}" alt="${mealData.strMeal}">
@@ -126,7 +126,7 @@ function displayRecipeInfo(mealData){
             ).join("")}
         </ul>
         <br>
-        <button class="add">Add to Favorites</button>
+        <button class="add">Add to favorites</button>
         <button class="delete">Delete from favorites</button>
     `;
     displayRecipe.appendChild(recipeFullInfo);
