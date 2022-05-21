@@ -21,8 +21,8 @@ img{
 }
 header {
     display:flex;
-    align-items: left;
-    justify-content: left;
+    align-items: right;
+    justify-content: right;
     padding: 1rem;
 }
 header input {
@@ -249,3 +249,10 @@ a {
     text-decoration: none;
     color: cadetblue;
   }
+
+  #myBtn {
+    background-color: transparent;
+    border:none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
