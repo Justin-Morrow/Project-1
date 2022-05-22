@@ -29,7 +29,6 @@ header input {
     border: solid gray;
     border-radius: 3px;
     padding: 0.5rem 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .empty {
     src: "heart.svg";
@@ -255,4 +254,16 @@ a {
     border:none;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+nav {
+    display:flex;
+    align-items: right;
+    justify-content: right;
+    padding: 1rem;
+}
+nav input {
+    border: solid gray;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
 }
